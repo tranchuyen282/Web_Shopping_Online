@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+}
+.payment{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.payment .payment_title{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 50px;
+    border: 1px;
+    background-color: white;
+}
+.payment .payment_title h3{
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.payment .payment_left{
+    float: left;
+    margin-left: 3%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px;
+    height: 500px;
+    width: 855px;  
+}
+.payment .payment_left .left_1{
+    background-color: white;
+}
+.payment .payment_left .left_1 ul{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.payment .payment_left .left_1 ul li{
+    float: left;
+}
+.payment .payment_left .left_1 ul li a{
+    padding-left: 600px;
+    font-size: 12px;
+}
+/*.payment .payment_left .left_1 b{
+    float: left;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_left .left_1 li a{
+    font-size: 14px;
+}*/
+.payment .payment_left .left_1 p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.payment .payment_left .left_2{
+    background-color: white;
+    margin-top: 20px;
+}
+.payment .payment_left .left_2 li{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.payment .payment_left .left_2 li b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_left .left_2 input[type=radio]{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.payment .payment_left .left_3{
+    background-color: white;
+    margin-top: 20px;
+}
+.payment .payment_left .left_3 li{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.payment .payment_left .left_3 li b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_left .left_3 input[type=radio]{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.payment .payment_right{
+    float: left;
+    margin-left: 1%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px;
+    width: 400px;  
+}
+.payment .payment_right .right_1{
+    background-color: white;
+}
+.payment .payment_right .right_1 li{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.payment .payment_right .right_1 li b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_right .right_1 input[type=text]{
+    width: 250px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.payment .payment_right .right_1 input[type=submit]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+    width: 100px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+.payment .payment_right .right_2{
+    background-color: white;
+    margin-top: 20px;
+   
+}
+.payment .payment_right .right_2 .title{
+    background-color: blanchedalmond;
+    
+    list-style: none;
+    padding-top: 10px;
+}
+.payment .payment_right .right_2 .title b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_right .right_2 .detail{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.payment .payment_right .right_2 .detail .info_item{
+    border-bottom: 1px solid grey;
+}
+.payment .payment_right .right_2 .detail .info_item ul{
+    padding: 0px;
+}
+.payment .payment_right .right_2 .detail .info_item img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.payment .payment_right .right_2 .detail .info_payment{
+    margin-top: 10px;
+}
+.payment .payment_right .right_2 .detail .info_payment .info_payment_left{
+    float: left;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.payment .payment_right .right_2 .detail .info_payment .info_payment_right{
+    font-size: 14px;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.payment .payment_right .right_2 .detail .info_payment .info_payment_right ul{
+    float: right;
+}
+.payment .payment_right .right_3{
+    background-color: white;
+    margin-top: 20px;
+}
+.payment .payment_right .right_3 li{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.payment .payment_right .right_3 li b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.payment .payment_right .right_3 input[type=text]{
+    width: 360px;
+    height: 100px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.payment .payment_right .right_4{
+    background-color: white;
+    margin-top: 20px;
+    height: 110px;
+}
+.payment .payment_right .right_4 .right_4_left{
+    float: left;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.payment .payment_right .right_4 .right_4_right{
+    float: right;
+    color: red;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.payment .payment_right .right_2 input[type=submit]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+    width: 380px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+}

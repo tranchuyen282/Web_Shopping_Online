@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+}
+.delivery{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.delivery .delivery_title{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 50px;
+    border: 1px;
+    background-color: white;
+}
+.delivery .delivery_title h3{
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.delivery .delivery_detail{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+.delivery .delivery_detail .delivery_detail_title{
+    background-color: blanchedalmond;
+    height: 30px;
+    list-style: none;
+    padding-top: 10px;
+}
+.delivery .delivery_detail .delivery_detail_title b{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.delivery .delivery_detail .delivery_detail_info{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.delivery .delivery_detail .delivery_detail_info ul input[type=radio]{
+    float: left;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+.delivery .delivery_detail .delivery_button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.delivery .delivery_detail .delivery_button input[type=submit]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+    width: 250px;
+    font-size: 16px;
+    background-color: red;
+}
+
+

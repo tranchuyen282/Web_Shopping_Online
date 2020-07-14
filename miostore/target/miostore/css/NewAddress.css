@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Time New Romand;
+}
+.newAddress{
+    margin-top: 20px;
+    width: 100%;
+}
+.newAddress .newAddress_title{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    border: 1px;
+    background-color: white;
+}
+.newAddress .newAddress_title h3{
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.newAddress .newAddress_form{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px;
+    background-color: white;
+}
+.newAddress .newAddress_form .hoten{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .hoten label{
+    padding-right: 20px;
+}
+.newAddress .newAddress_form .hoten input[type=text]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.newAddress .newAddress_form .sodienthoai{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .sodienthoai label{
+    padding-right: 70px;
+}
+.newAddress .newAddress_form .sodienthoai input[type=text]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .thanhpho{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .thanhpho label{
+    padding-right: 90px;
+}
+.newAddress .newAddress_form .thanhpho select[name=thanhpho_list]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .quanhuyen{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .quanhuyen label{
+    padding-right: 80px;
+}
+.newAddress .newAddress_form .quanhuyen select[name=quanhuyen_list]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .phuongxa{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .phuongxa label{
+    padding-right: 85px;
+}
+.newAddress .newAddress_form .phuongxa select[name=phuongxa_list]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .diachi{
+    padding-top: 20px;
+    padding-left: 300px;
+}
+.newAddress .newAddress_form .diachi label{
+    padding-right: 125px;
+}
+.newAddress .newAddress_form .diachi input[type=text]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .luu{
+    padding-top: 20px;
+    padding-left: 500px;
+}
+.newAddress .newAddress_form .luu input[type=checkbox]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.newAddress .newAddress_form .luu label{
+    padding-left: 10px;
+}
+.newAddress .newAddress_form .button{
+    padding-top: 20px;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+.newAddress .newAddress_form .button input[type=submit]{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    color: white;
+    width: 150px;
+    font-size: 16px;
+}
+.newAddress .newAddress_form .button input[type=submit][name=huy] {
+    margin-right: 50px;
+    background-color: lightgray;
+}
+.newAddress .newAddress_form .button input[type=submit][name=tieptuc] {
+    background-color: red;
+}
+
+

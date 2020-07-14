@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{		
+    font-family: 'Time New Romand';
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+}
+.login {
+    margin-top: 100px;
+    margin-left: 50%;
+    margin-bottom: 100px;
+    height: 600px;
+    width: 500px;
+    background-color: #ffffcc;
+}
+.login .title{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.login .title h2{
+    float: left;
+    font-size: 24px;
+}
+.login .title p{
+    float: right;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.login .title #cau_hoi{
+    padding-right: 10px;
+    color: #ccc;
+}
+.login .title #dang_ky{
+    padding-right: 50px;
+}
+.login .middle{
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.login .middle label{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.login .middle input[type=text]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.login .middle input[type=password]{
+    width: 400px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.login .button{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.login .button input {
+    border: none;
+    outline: none;
+    background-color: #ff6600;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+.login .icon p{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    color: #ccc;
+}
+.login .icon img{
+    margin: 0 12px;
+    cursor: pointer;
+}
+.login .icon img[id=fb]{
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 180px;
+    height: 40px;
+}
+.login .icon img[id=gp]{
+    padding-top: 33px;
+}

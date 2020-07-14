@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Roboto;
+}
+.payment{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.payment .payment_title{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 50px;
+    border: 1px;
+    background-color: white;
+}
+.payment .payment_title h3{
+    font-size: 24px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.payment .payment_address{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    border: 1px;
+}
+.payment .payment_address .address_title{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+.payment .payment_address .address_info{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.payment .payment_address .address_info .info1{
+    float: left;
+    padding-left: 20px;
+    width: 300px;
+}
+.payment .payment_address .address_info .info2{
+    float: left;
+    width: 700px;
+}
+.payment .payment_address .address_info .mac_dinh{
+    float: left;
+    padding-left: 25px;
+    width: 170px;
+}
+.payment .payment_address .address_info .thay_doi{
+    float: left;
+    padding-left: 23px;
+    width: 180px;
+}
+.payment .payment_delivery{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 100px;
+    border: 1px;
+}
+.payment .payment_delivery .payment_delivery_title {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+.payment .payment_delivery .payment_delivery_info{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.payment .list_item{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    border: 1px;
+    background-color: white;
+}
+.payment .list_item .list_item_top {
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.payment .list_item .list_item_top .san_pham{
+    float: left;
+    width: 800px;
+}
+.payment .list_item .list_item_top .don_gia{
+    float: left;
+    width: 130px;
+}
+.payment .list_item .list_item_top .so_luong{
+    float: left;
+    width: 200px;
+}
+.payment .list_item .list_item_detail {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.payment .list_item .list_item_detail ul{
+}
+.payment .list_item .list_item_detail ul img{
+    float: left;
+    width: 100px;
+}
+.payment .list_item .list_item_detail ul #description{
+    float: left;
+    width: 670px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.payment .list_item .list_item_detail ul #dongia_item{
+    float: left;
+    width: 130px;
+    padding-top: 20px;
+}
+.payment .list_item .list_item_detail ul #soluong_item{
+    float: left;
+    width: 200px;
+    padding-top: 20px;
+}
+.payment .list_item .list_item_detail ul #thanhtien_item{
+    padding-top: 20px;
+}
+.payment .list_item .list_item_bottom {
+    padding-bottom: 30px;
+}
+.payment .list_item .list_item_bottom .title{
+    float: left;
+    width: 1100px;
+}
+.payment .list_item .list_item_bottom .title p{
+    padding-left: 1000px;
+}
+.payment .list_item .list_item_bottom .total {
+    float: left;
+}
+.payment .list_item .list_item_bottom .total p{
+    padding-left: 50px;
+}
+.payment .payment_type{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+    border: 1px;
+    height: 120px;
+    background-color: white;
+}
+.payment .payment_type p{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+}
+.payment .payment_type input[type=radio]{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.payment .payment_final {
+    margin-left: 3%;
+    margin-right: 3%;
+    border: 1px solid gray;
+    background-color: white;
+    height: 220px;
+    margin-bottom: 30px;
+}
+.payment .payment_final ul{
+    padding-top: 15px;
+    float: left;
+}
+.payment .payment_final ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+.payment .payment_final .final_left{
+    padding-left: 980px;
+}
+.payment .payment_final .final_right{
+    float: right;
+    padding-right: 50px;
+}
+.payment .payment_final input[type=submit] {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    margin-left: 980px;
+    background-color: red;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+}
